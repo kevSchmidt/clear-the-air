@@ -1,0 +1,17 @@
+.btn {
+  text-decoration: none;
+  color: $color-white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 1rem 2.8rem;
+
+  &--green {
+    background-color: green;
+  }
+
+  &--blue {
+    margin-left: 1rem;
+    background-color: blue;
+  }
+}
