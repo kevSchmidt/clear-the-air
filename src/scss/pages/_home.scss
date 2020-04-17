@@ -23,38 +23,83 @@
   &-left {
     width: 50%;
 
+    @include respond(phone) {
+      width: 70%;
+    }
+
     &__logo {
       height: 12vh;
       @include flex-end;
-      border: 1px dashed blue;
+
+      @include respond(tab-port) {
+        padding-left: 0.5rem;
+      }
     }
 
     &__text {
       height: 40vh;
       @include flex-column;
-      border: 1px dashed yellow;
+
+      @include respond(tab-port) {
+        padding-left: 0.5rem;
+      }
+
+      @include respond(phone) {
+        height: 35vh;
+      }
     }
 
     &__button {
       height: 8vh;
       @include flex-center;
-      border: 1px dashed black;
+
+      @include respond(tab-port) {
+        padding-left: 0.5rem;
+      }
     }
   }
 
   &-right {
     width: 50%;
 
+    @include respond(phone) {
+      width: 30%;
+    }
+
     &__navigation {
       height: 16vh;
       @include flex-between;
-      border: 1px dashed green;
+    }
+
+    &__hamburger {
+      display: none;
+
+      @include respond(phone) {
+        width: 2.18rem;
+        height: 1.87rem;
+        position: fixed;
+        top: 4.2vh;
+        right: 5vw;
+        @include flex-column;
+        justify-content: space-between;
+
+        &:hover {
+          .line-1 {
+            transform: rotateZ(-45deg);
+          }
+          .line-2 {
+            transform: translate(5px, 20px);
+          }
+          .line-3 {
+            transform: rotateZ(45deg);
+          }
+        }
+      }
     }
 
     &__composition {
       height: 61vh;
       position: relative;
-      border: 1px dashed red;
     }
   }
 }

@@ -5,6 +5,10 @@
     width: 12rem;
   }
 
+  @include respond(phone) {
+    width: 5em;
+  }
+
   &--1 {
     position: absolute;
     bottom: 0.8rem;
@@ -12,7 +16,12 @@
 
     @include respond(tab-port) {
       bottom: 8rem;
-      right: 0;
+      right: 0.5rem;
+    }
+
+    @include respond(phone) {
+      top: 12rem;
+      right: 0.5rem;
     }
   }
 
@@ -23,7 +32,12 @@
 
     @include respond(tab-port) {
       bottom: 7rem;
-      right: 4rem;
+      right: 4.5rem;
+    }
+
+    @include respond(phone) {
+      top: 0;
+      right: 0.5rem;
     }
   }
 }

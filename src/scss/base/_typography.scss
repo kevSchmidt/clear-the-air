@@ -14,4 +14,8 @@ p {
   @include respond(tab-port) {
     font-size: 0.9rem;
   }
+
+  @include respond(phone) {
+    font-size: 0.8rem;
+  }
 }
