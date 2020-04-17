@@ -1,3 +1,42 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+
+// DISPLAY FLEX
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+// QUERIES
+@mixin respond($breakpoint) {
+  // 600px
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+
+  // 900px
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+}

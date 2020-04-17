@@ -1,6 +1,17 @@
 /**
  * Basic typography style for copy text
  */
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: $color-white;
+}
+
 p {
-  font-weight: 700;
+  font-weight: $font-bold;
+
+  @include respond(tab-port) {
+    font-size: 0.9rem;
+  }
 }

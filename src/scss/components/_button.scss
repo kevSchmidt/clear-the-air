@@ -2,16 +2,25 @@
   text-decoration: none;
   color: $color-white;
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: $font-bold;
   border-radius: 5px;
-  padding: 1rem 2.8rem;
+  padding: 1.2rem 3rem;
+
+  @include respond(tab-port) {
+    font-size: 0.9rem;
+    padding: 0.7rem 2rem;
+  }
 
   &--green {
-    background-color: green;
+    background-color: $color-green;
   }
 
   &--blue {
     margin-left: 1rem;
-    background-color: blue;
+    background-color: $color-blue;
+
+    @include respond(tab-port) {
+      margin-left: 0.5rem;
+    }
   }
 }
