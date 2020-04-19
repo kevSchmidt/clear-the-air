@@ -4,16 +4,17 @@
   font-size: 1.1rem;
   font-weight: $font-bold;
   border-radius: 5px;
-  padding: 1.2rem 3rem;
+  padding: 1rem 3rem;
 
   @include respond(tab-port) {
     font-size: 0.9rem;
+    margin-top: -13vh;
     padding: 0.7rem 2rem;
   }
 
   @include respond(phone) {
-    font-size: 0.7rem;
-    padding: 0.5rem 1.2rem;
+    margin-top: 0;
+    padding: 0.6rem 2rem;
   }
 
   &--green {
@@ -26,6 +27,10 @@
 
     @include respond(tab-port) {
       margin-left: 0.5rem;
+    }
+
+    @include respond(phone) {
+      margin-left: 1rem;
     }
   }
 }
