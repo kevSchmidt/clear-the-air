@@ -1,12 +1,12 @@
 # Exercise: reproduce a website with scss and make it responsive.
 ## Model
-![](./img/homepage.png)
+![](./image/homepage.png)
 ## Mobile
-![](./img/phone.png)
+![](./image/phone.png)
 ## Tablet
-![](./img/ipad.png)
+![](./image/ipad.png)
 ## Laptop
-![](./img/computer.png)
+![](./image/computer.png)
 
 
 
