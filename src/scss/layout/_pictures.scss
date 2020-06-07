@@ -9,10 +9,19 @@
     width: 8em;
   }
 
+  @include respond(phoneXS) {
+    width: 6em;
+  }
+
   &--1 {
     position: absolute;
     bottom: 0.8rem;
     right: 0;
+
+    @include respond(tab-pro) {
+      bottom: 16rem;
+      right: 1.5rem;
+    }
 
     @include respond(tab-port) {
       bottom: 5rem;
@@ -20,8 +29,18 @@
     }
 
     @include respond(phone) {
+      bottom: 8rem;
+      right: 4rem;
+    }
+
+    @include respond(phoneS) {
       bottom: 6.5rem;
       right: 2rem;
+    }
+
+    @include respond(phoneXS) {
+      bottom: 6.5rem;
+      right: 3rem;
     }
   }
 
@@ -30,14 +49,29 @@
     bottom: 0;
     right: 8rem;
 
+    @include respond(tab-pro) {
+      bottom: 15rem;
+      right: 5.5rem;
+    }
+
     @include respond(tab-port) {
       bottom: 4rem;
       right: 5.5rem;
     }
 
     @include respond(phone) {
+      bottom: 8rem;
+      right: 14rem;
+    }
+
+    @include respond(phoneS) {
       bottom: 6.5rem;
       right: 13rem;
+    }
+
+    @include respond(phoneXS) {
+      bottom: 6.5rem;
+      right: 11rem;
     }
   }
 }

@@ -26,6 +26,20 @@
 
 // QUERIES
 @mixin respond($breakpoint) {
+  // 1024px
+  @if $breakpoint == tab-pro {
+    @media (max-width: 64em) {
+      @content;
+    }
+  }
+
+  // 900px
+  @if $breakpoint == tab-port {
+    @media (max-width: 63.9em) {
+      @content;
+    }
+  }
+
   // 722px
   @if $breakpoint == phone {
     @media (max-width: 45.1em) {
@@ -33,9 +47,16 @@
     }
   }
 
-  // 900px
-  @if $breakpoint == tab-port {
-    @media (max-width: 56.25em) {
+  // 375px
+  @if $breakpoint == phoneS {
+    @media (max-width: 23.5em) {
+      @content;
+    }
+  }
+
+  // 320px
+  @if $breakpoint == phoneXS {
+    @media (max-width: 20em) {
       @content;
     }
   }
