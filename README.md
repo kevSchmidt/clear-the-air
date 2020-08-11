@@ -9,11 +9,11 @@
 ### Exercise from DCI.
 Reproduce the layout of the model given and make it responsive.
 
-- Mobile Version
+##### - Mobile Version -
 ![](./image/phone.png)
-- Tablet Version
+##### - Tablet Version -
 ![](./image/ipad.png)
-- Laptop Version
+##### - Laptop Version -
 ![](./image/computer.png)
 
 ### Tools:
