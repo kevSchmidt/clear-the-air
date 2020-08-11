@@ -3,6 +3,12 @@
 - Link of the project: https://kevschmidt.github.io/clear-the-air/
 - Clone the repository: ``` git clone git@github.com:kevSchmidt/clear-the-air.git ```
 
+### Tools:
+<h1>
+<img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
+<img src="https://imgur.com/plyrZV7.png" alt="React" width="10%">
+</h1>
+
 ### Model
 ![](./image/homepage.png)
 
@@ -16,11 +22,7 @@ Reproduce the layout of the model given and make it responsive.
 ##### - Laptop Version -
 ![](./image/computer.png)
 
-### Tools:
-<h1>
-<img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
-<img src="https://imgur.com/plyrZV7.png" alt="React" width="10%">
-</h1>
+
 
 ### Structure:
 ```
