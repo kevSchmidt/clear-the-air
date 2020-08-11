@@ -34,27 +34,27 @@ Project
       │  
       │  
       └─── scss
-      │        └─── abstracts
-      |        |        └─── mixins.scss
-      |        |        └─── variables.scss 
-      │        |
-      |        └─── base
-      |        |      └─── base.scss
-      |        |      └─── typography.scss
-      |        |
-      |        └─── components
-      |        |         └─── button.scss
-      |        |
-      |        └─── layout
-      |        |       └─── header.scss
-      |        |       └─── pictures.scss
-      |        |  
-      |        |  
-      |        └─── pages
-      |        |      └─── homes.scss
-      |        |
-      |        |
-      |        └───  main.scss
+      │     └─── abstracts
+      |     |        └─── mixins.scss
+      |     |        └─── variables.scss 
+      │     |
+      |     └─── base
+      |     |      └─── base.scss
+      |     |      └─── typography.scss
+      |     |
+      |     └─── components
+      |     |         └─── button.scss
+      |     |
+      |     └─── layout
+      |     |       └─── header.scss
+      |     |       └─── pictures.scss
+      |     |  
+      |     |  
+      |     └─── pages
+      |     |      └─── homes.scss
+      |     |
+      |     |
+      |     └───  main.scss
       |
       └─── index.html
 ```
