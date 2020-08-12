@@ -9,10 +9,10 @@
 <img src="https://imgur.com/plyrZV7.png" alt="React" width="10%">
 </h1>
 
-### Model
+### Model:
 ![](./image/homepage.png)
 
-### Exercise from DCI.
+### Exercise from DCI:
 Reproduce the layout of the model given and make it responsive.
 
 ##### - Mobile Version -
